@@ -1,0 +1,34 @@
+notepad .gitignore
+```
+
+Copy and paste this content (replace everything in the file):
+```
+# Dependencies
+backend/node_modules/
+ecommerce-site/node_modules/
+node_modules/
+
+# Environment variables
+backend/.env
+ecommerce-site/.env
+.env
+
+# Build output
+ecommerce-site/build/
+ecommerce-site/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Database playground
+playground-1.mongodb.js
+*.mongodb.js
