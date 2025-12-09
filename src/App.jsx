@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { productAPI, orderAPI, messageAPI } from 'c:/Users/Laiba/Desktop/custombox-ecommerce/src/utils/api'; 
-import Header from 'c:/Users/Laiba/Desktop/custombox-ecommerce/src/components/Header';
-import HomePage from 'c:/Users/Laiba/Desktop/custombox-ecommerce/src/components/HomePage';
-import CartSidebar from 'c:/Users/Laiba/Desktop/custombox-ecommerce/src/components/CartSidebar';
-import ProductDetail from 'c:/Users/Laiba/Desktop/custombox-ecommerce/src/components/ProductDetail';
-import AdminPage from 'c:/Users/Laiba/Desktop/custombox-ecommerce/src/components/AdminPage';
+import { productAPI, orderAPI, messageAPI } from './utils/api'; 
+import Header from './components/Header';
+import HomePage from './components/HomePage';
+import CartSidebar from './components/CartSidebar';
+import ProductDetail from './components/ProductDetail';
+import AdminPage from './components/AdminPage';
 import AdminLogin from './components/AdminLogin';
 import ProductsPage from './components/ProductsPage';
 
